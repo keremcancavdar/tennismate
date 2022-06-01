@@ -1,0 +1,326 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body a {
+    text-decoration: none;
+    color: black;
+}
+
+.mainColor {
+    background-color: #ff9518;
+}
+
+.gradientColor {
+    background: linear-gradient(135deg, #FCCF31 0%, #F55555 100%);
+}
+
+.orangeLine {
+    height: 100vh;
+    width: 15px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.instagram {
+    position: fixed;
+    top: 175px;
+    left: 35px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 20px;
+    font-family: Segoe Script;
+    /* anasayfa logo yazısı */
+}
+
+header a {
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.anasayfaKaydolButton {
+    color: white;
+    padding: 8px 15px;
+    border-radius: 121px;
+    margin-left: 15px;
+}
+
+/* anaProfil */
+.menu {
+    position: fixed;
+    top: 175px;
+    left: 45px;
+}
+
+.menuLogo {
+    position: fixed;
+    top: 50px;
+    left: 35px;
+}
+
+.menu a {
+    display: block;
+    margin-top: 12px;
+}
+
+
+
+.profilSag {
+
+    background-color: rgba(255, 149, 24, 0.05);
+
+    min-height: 100vh;
+}
+
+.profilSol {
+    position: relative;
+    left: 150px;
+}
+
+.oyunKur {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    width: 150px;
+    height: 200px;
+    border-radius: 9px;
+    position: relative;
+}
+
+.profilResmi img {
+    width: 100px;
+    height: 100px;
+    border-radius: 90px;
+}
+
+.upComingEvents {
+    font-family: Titillium Web;
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background: linear-gradient(273.53deg, #FF5678 -28.65%, #FF9518 125.97%);
+}
+
+.upComingEvents .eventDay {
+    font-size: 30px;
+    border-right: 2px solid white;
+    padding-right: 15px;
+    font-weight: 900;
+}
+
+/* bildirim.html */
+.oyunTeklif {
+
+    border-radius: 10px;
+    height: 100px;
+    position: relative;
+    box-shadow: 0px 8px 24px rgba(44, 62, 80, 0.1);
+
+
+}
+
+/* 
+.oyunTeklif {
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    height: 100px;
+    position: relative;
+
+}*/
+.oyunTeklif .oyunTeklifResim img {
+    width: 50px;
+    height: 50px;
+
+}
+
+
+.puanDiv {
+    height: max-content;
+    width: 150px;
+    background: linear-gradient(273.53deg, #FF5678 -28.65%, #FF9518 125.97%);
+    border-radius: 11px;
+    padding: 5px 0px;
+}
+
+/* girisYap & Kaydol */
+.girisKayit input[type=email],
+.girisKayit input[type=text],
+.girisKayit input[type="password"] {
+    border: solid 2px #a6d36d;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 300px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.girisKayit input:focus {
+    outline: none;
+}
+
+.girisKayit .kayitOlButton a,
+.girisKayit .kayitOlButton button {
+    color: white;
+    font-weight: 600;
+    padding: 5px 40px;
+    background-color: #59EF9F;
+    border-radius: 13px;
+    border: none;
+}
+
+/* hesapAyarları */
+.hesapAyarlari .hesapProfilResim img {
+    width: 120px;
+    height: 120px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 90px;
+}
+
+.hesapAyarlari .resimButon button {
+    padding: 7px 10px;
+    border: none;
+    width: 120px;
+    border: 1px solid white;
+    height: min-content;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hesapAyarlari .hesapAyar {
+    font-weight: bold;
+}
+
+.hesapAyarlari .hesapAyar label {
+    margin-bottom: 5px;
+}
+
+.hesapAyarlari .hesapAyar button {
+    width: 330px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 8px 10px;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(135deg, #FCCF31 0%, #F55555 100%);
+    margin-top: 0px;
+
+}
+
+.hesapAyarlari .hesapAyar input,
+.hesapAyarlari select {
+    border: 1px solid black;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 5px;
+    width: 150px;
+
+
+}
+
+.hesapAyarlari textarea {
+    border: 1px solid black;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 5px;
+    width: 330px;
+    height: 100px;
+}
+
+/* oyunKatıl */
+.oyunKart {
+    width: 350px;
+    min-height: 250px;
+    max-height: max-content;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px #333;
+}
+
+.oyunKart button,
+.oyunKart .oyunKatil a {
+
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 8px 10px;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(135deg, #FCCF31 0%, #F55555 100%);
+
+}
+
+/* oyunKur */
+.oyunKurSayfa input[type="radio"] {
+    width: 15px;
+    height: 15px;
+
+}
+
+.oyunKurSayfa .oyunKurButton button {
+    width: 100px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 8px 10px;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(135deg, #FCCF31 0%, #F55555 100%);
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/* profilGoruntule */
+.profilGoruntuleGenel {
+
+    height: max-content;
+    border-radius: 10px;
+
+}
+
+.profilGoruntuleResim img {
+    border-radius: 90px;
+    height: 75px;
+    width: 75px;
+}
+
+.yorumGoruntuleResim img {
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+}
+
+.profilLink {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tabButtonLink button {
+    color: #FF9518;
+
+}
+
+.tabButtonLink button:hover {
+    margin: 0px 5px;
+    background-color: #FFC279;
+    color: black;
+    transition: all .3s;
+}
+
+.tabButtonLink .active {
+    background-color: #FF9518 !important;
+    font-weight: bold;
+    transition: all .3s;
+}
